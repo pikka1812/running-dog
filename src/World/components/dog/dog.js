@@ -3,7 +3,7 @@ import { setupModel } from './setupModel.js';
 
 async function loadDog() {
     const loader = new GLTFLoader();
-    const cheesecake = await loader.loadAsync('/assets/models/dog.glb');
+    const cheesecake = await loader.loadAsync('./src/assets/models/dog.glb');
 
     console.log('Squaaawk!', cheesecake);
 
